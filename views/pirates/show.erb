@@ -1,7 +1,8 @@
 <h1>Display your Pirate here</h1>
-
-
-<h2>Display your first ship here</h2>
-
-
-<h2>Display your second ship here</h2>
+  <p><%= @pirate.name %></p>
+  <p><%= @pirate.weight %></p>
+  <p><%= @pirate.height %></p>
+<h2>Display your first @ships here</h2>
+  <%= @ships[0].name + "\n" + @ships[0].type + "\n" + @ships[0].booty %>
+<h2>Display your second @ships here</h2>
+  <%= @ships[1].name + "\n" + @ships[1].type + "\n" + @ships[1].booty %>
